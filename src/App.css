@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body{
+  margin:0;
+  box-sizing: border-box;
+  height: 100vh;
+  width:100%;
+  background-color: rgb(38, 38, 38);
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  
 }
 
-.App-link {
-  color: #61dafb;
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2% 5%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1{
+  font-size:60px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+}
+
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+p{
+ font-size: 20px;
+ padding: 0 10%;
+}
+
+img{
+  height: 50vh;
+  width: 70vw;
+  object-fit: cover;
+}
+
+a{
+  color: white;
+  padding: 0 10%;
+  font-weight: bold;
+  
 }
